@@ -43,23 +43,33 @@ body{
     outline: none;
 }
 div{
-
   width: 80vw;
-  margin-left: 10vw;
+}
+h2{
+  font-style: normal;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont,
+     "Segoe UI", "Roboto", "Oxygen",
+     "Ubuntu", "Cantarell", "Fira Sans",
+     "Droid Sans", "Helvetica Neue", sans-serif, STXihei, 微软雅黑;
 }
 .type_specimen{
   font-family: 'Generic Serif_Regular';
-  margin-top: 5vw;
-  margin-bottom: 5vw;
 }
 .font_name{
   font-size: 3vw;
   margin-bottom: 0;
   flex-grow: 1;
+  margin-left: 10vw;
+  margin-top: 5vw;
 }
 .alphabet{
     font-size: 10vw;
     word-wrap: break-word;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
 }
 .texture{
   word-wrap: break-word;
@@ -77,4 +87,11 @@ div{
 }
 .thirty-six{
   font-size: 36px;
+}
+section{
+  width: 80vw;
+  margin-left: 10vw;
+  margin-bottom: 10vw;
+  display: flex;
+  justify-content: space-between;
 }
