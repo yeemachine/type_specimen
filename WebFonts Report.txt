@@ -1,0 +1,159 @@
+Web Fonts:
+**********
+
+Generic_Serif_12-8-2.ufo
+------------------------
+source: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/sources/Generic_Serif_12-8-2.ufo
+
+Build OTF
+'''''''''
+    path: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/deliverables/web/Generic_Serif-Regular_web.otf
+    Source is a UFO file. Generate OTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font 'font.otf' to temporary Unix Type1 font file 'font.otf.tmp'.
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "font.otf.tmp" "-o" "tmpcFMcLH.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        makeotfexe [WARNING] --- Source font: font.otf.tmp
+        makeotfexe [WARNING] unhinted <.notdef>
+        makeotfexe [WARNING] unhinted <A>
+        makeotfexe [WARNING] unhinted <C>
+        makeotfexe [WARNING] unhinted <D>
+        makeotfexe [WARNING] unhinted <E>
+        makeotfexe [WARNING] unhinted <F>
+        makeotfexe [WARNING] unhinted <H>
+        makeotfexe [WARNING] unhinted <I>
+        makeotfexe [WARNING] unhinted <J>
+        makeotfexe [WARNING] unhinted <L>
+        makeotfexe [WARNING] unhinted <M>
+        makeotfexe [WARNING] unhinted <N>
+        makeotfexe [WARNING] unhinted <O>
+        makeotfexe [WARNING] unhinted <P>
+        makeotfexe [WARNING] unhinted <Q>
+        makeotfexe [WARNING] unhinted <R>
+        makeotfexe [WARNING] unhinted <S>
+        makeotfexe [WARNING] unhinted <T>
+        makeotfexe [WARNING] unhinted <V>
+        makeotfexe [WARNING] unhinted <W>
+        makeotfexe [WARNING] unhinted <X>
+        makeotfexe [WARNING] unhinted <Y>
+        makeotfexe [WARNING] unhinted <Z>
+        makeotfexe [WARNING] unhinted <a>
+        makeotfexe [WARNING] unhinted <b>
+        makeotfexe [WARNING] unhinted <c>
+        makeotfexe [WARNING] unhinted <d>
+        makeotfexe [WARNING] unhinted <e>
+        makeotfexe [WARNING] unhinted <f>
+        makeotfexe [WARNING] unhinted <g>
+        makeotfexe [WARNING] unhinted <h>
+        makeotfexe [WARNING] unhinted <i>
+        makeotfexe [WARNING] unhinted <j>
+        makeotfexe [WARNING] unhinted <k>
+        makeotfexe [WARNING] unhinted <l>
+        makeotfexe [WARNING] unhinted <m>
+        makeotfexe [WARNING] unhinted <n>
+        makeotfexe [WARNING] unhinted <o>
+        makeotfexe [WARNING] unhinted <p>
+        makeotfexe [WARNING] unhinted <q>
+        makeotfexe [WARNING] unhinted <r>
+        makeotfexe [WARNING] unhinted <s>
+        makeotfexe [WARNING] unhinted <t>
+        makeotfexe [WARNING] unhinted <u>
+        makeotfexe [WARNING] unhinted <v>
+        makeotfexe [WARNING] unhinted <w>
+        makeotfexe [WARNING] unhinted <x>
+        makeotfexe [WARNING] unhinted <y>
+        makeotfexe [WARNING] unhinted <z>
+        makeotfexe [WARNING] unhinted <hyphen>
+        makeotfexe [WARNING] unhinted <quoteleft>
+        makeotfexe [WARNING] unhinted <quotedblleft>
+        makeotfexe [WARNING] unhinted <quoteright>
+        makeotfexe [WARNING] unhinted <quotedblright>
+        makeotfexe [WARNING] unhinted <exclam>
+        makeotfexe [WARNING] unhinted <quotedbl>
+        makeotfexe [WARNING] unhinted <quotesingle>
+        makeotfexe [WARNING] unhinted <comma>
+        makeotfexe [WARNING] unhinted <period>
+        makeotfexe [WARNING] unhinted <colon>
+        makeotfexe [WARNING] unhinted <semicolon>
+        makeotfexe [WARNING] unhinted <f_i>
+        makeotfexe [WARNING] unhinted <f_f>
+        makeotfexe [WARNING] <GenericSerif-Regular> Major version number not in range 1 .. 255 [features 28]
+        makeotfexe [NOTE] Wrote new font file 'tmpcFMcLH.otf'.
+        
+        
+        Built release mode font 'tmpcFMcLH.otf' Revision 0.000
+        
+        --------------------
+        Hinting font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmpcFMcLH.otf. Start time: Sat Dec  9 03:02:49 2017.
+        .........................................
+        ......................
+        Saving font file with new hints...Sat Dec  9 03:02:52 2017
+        Done with font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmpcFMcLH.otf. End time: Sat Dec  9 03:02:52 2017.
+        
+
+Build TTF
+'''''''''
+    path: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/deliverables/web/Generic_Serif-Regular_web.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font 'dummyCompile.otf' to temporary Unix Type1 font file 'dummyCompile.otf.tmp'.
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "dummyCompile.otf.tmp" "-o" "tmp3t7zv2.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        makeotfexe [WARNING] <GenericSerif-Regular> Major version number not in range 1 .. 255 [features 28]
+        makeotfexe [NOTE] Wrote new font file 'tmp3t7zv2.ttf'.
+        
+        
+        Built release mode font 'tmp3t7zv2.ttf' Revision 0.000
+        
+        --------------------
+
+Build WOFF (TTF)
+''''''''''''''''
+    path: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/deliverables/web/Generic_Serif-Regular_web.woff
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/deliverables/web/Generic_Serif-Regular_web.woff2
+
+Build EOT
+'''''''''
+    path: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/deliverables/web/Generic_Serif-Regular_web.eot
+
+Build SVG
+'''''''''
+    path: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/deliverables/web/Generic_Serif-Regular_web.svg
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14
