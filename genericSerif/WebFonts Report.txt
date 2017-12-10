@@ -1,13 +1,13 @@
 Web Fonts:
 **********
 
-Generic_Serif_12-9-1.ufo
+Generic-Serif_12-9-2.ufo
 ------------------------
-source: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/sources/Generic_Serif_12-9-1.ufo
+source: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/sources/Generic-Serif_12-9-2.ufo
 
 Build OTF
 '''''''''
-    path: /Users/MasterYee/Desktop/Github/type_specimen/Generic_Serif-Regular_web.otf
+    path: /Users/MasterYee/Desktop/Github/type_specimen/genericSerif/Generic_Serif-Regular_web.otf
     Source is a UFO file. Generate OTF.
         --------------------
         
@@ -20,7 +20,7 @@ Build OTF
         makeotf [Note] Writing options file current.fpr
         makeotf [Note] Running makeotfexe with commands:
            cd ""
-           makeotfexe "-f" "font.otf.tmp" "-o" "tmpXs2HF1.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+           makeotfexe "-f" "font.otf.tmp" "-o" "tmp1JHxZu.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
         makeotfexe [WARNING] --- Source font: font.otf.tmp
         makeotfexe [WARNING] unhinted <.notdef>
         makeotfexe [WARNING] unhinted <A>
@@ -85,23 +85,32 @@ Build OTF
         makeotfexe [WARNING] unhinted <semicolon>
         makeotfexe [WARNING] unhinted <f_i>
         makeotfexe [WARNING] unhinted <f_f>
-        makeotfexe [WARNING] <GenericSerif-Regular> Major version number not in range 1 .. 255 [features 28]
-        makeotfexe [NOTE] Wrote new font file 'tmpXs2HF1.otf'.
+        makeotfexe [FATAL] <GenericSerif-Regular> expecting EOF (text was "ignore") [features 14]
         
+        makeotf [Error] Failed to build output font file 'tmp1JHxZu.otf'.
+        None
         
-        Built release mode font 'tmpXs2HF1.otf' Revision 0.000
+        Traceback (most recent call last):
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/fontCompiler/tools/compileTools.py", line 258, in _executeCommand
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/fontCompiler/tools/compileTools.py", line 297, in embedded_makeotf
+          File "MakeOTF.py", line 2509, in runMakeOTF
+        MakeOTFRunError
         
         --------------------
-        Hinting font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmpXs2HF1.otf. Start time: Sat Dec  9 12:59:02 2017.
-        .........................................
-        ......................
-        Saving font file with new hints...Sat Dec  9 12:59:04 2017
-        Done with font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmpXs2HF1.otf. End time: Sat Dec  9 12:59:04 2017.
+        Traceback (most recent call last):
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/fontCompiler/tools/compileTools.py", line 258, in _executeCommand
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/fontCompiler/tools/compileTools.py", line 307, in embedded_autohint
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/externalFrameworks/fdkTools/autohint.py", line 1052, in hintFile
+        ACFontError: 'Error parsing font file <tmp1JHxZu.otf>.'
+        
+        Hinting font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmp1JHxZu.otf. Start time: Sat Dec  9 19:00:05 2017.
+        IndexError: string index out of range
+        None
         
 
 Build TTF
 '''''''''
-    path: /Users/MasterYee/Desktop/Github/type_specimen/Generic_Serif-Regular_web.ttf
+    path: /Users/MasterYee/Desktop/Github/type_specimen/genericSerif/Generic_Serif-Regular_web.ttf
     Source is a UFO file. Generate TTF.
         --------------------
         
@@ -114,31 +123,30 @@ Build TTF
         makeotf [Note] Writing options file current.fpr
         makeotf [Note] Running makeotfexe with commands:
            cd ""
-           makeotfexe "-f" "dummyCompile.otf.tmp" "-o" "tmpZgfFGS.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
-        makeotfexe [WARNING] <GenericSerif-Regular> Major version number not in range 1 .. 255 [features 28]
-        makeotfexe [NOTE] Wrote new font file 'tmpZgfFGS.ttf'.
+           makeotfexe "-f" "dummyCompile.otf.tmp" "-o" "tmpSL1ij6.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        makeotfexe [FATAL] <GenericSerif-Regular> expecting EOF (text was "ignore") [features 14]
         
+        makeotf [Error] Failed to build output font file 'tmpSL1ij6.ttf'.
+        None
         
-        Built release mode font 'tmpZgfFGS.ttf' Revision 0.000
+        Traceback (most recent call last):
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/fontCompiler/tools/compileTools.py", line 258, in _executeCommand
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/fontCompiler/tools/compileTools.py", line 297, in embedded_makeotf
+          File "MakeOTF.py", line 2509, in runMakeOTF
+        MakeOTFRunError
         
         --------------------
-
-Build WOFF (TTF)
-''''''''''''''''
-    path: /Users/MasterYee/Desktop/Github/type_specimen/Generic_Serif-Regular_web.woff
-
-Build WOFF2 (TTF)
-'''''''''''''''''
-    path: /Users/MasterYee/Desktop/Github/type_specimen/Generic_Serif-Regular_web.woff2
-
-Build EOT
-'''''''''
-    path: /Users/MasterYee/Desktop/Github/type_specimen/Generic_Serif-Regular_web.eot
-
-Build SVG
-'''''''''
-    path: /Users/MasterYee/Desktop/Github/type_specimen/Generic_Serif-Regular_web.svg
-
+        Failed:
+        Traceback (most recent call last):
+          File "/Users/MasterYee/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 557, in run
+          File "/Users/MasterYee/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 420, in _convertPath
+          File "/Users/MasterYee/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 330, in _getTempTTF
+          File "/Users/MasterYee/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 137, in generateTTF
+          File "/Users/MasterYee/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/autohint.py", line 94, in TTFAutohint
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/fontTools/ttLib/__init__.py", line 180, in __init__
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python2.7/fontTools/ttLib/sfnt.py", line 84, in __init__
+        TTLibError: Not a TrueType or OpenType font (not enough data)
+        
 
 
 TTFAutohint options:
