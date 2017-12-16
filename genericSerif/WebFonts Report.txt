@@ -1,9 +1,9 @@
 Web Fonts:
 **********
 
-Generic-Serif_12-14-1.ufo
+Generic-Serif_12-15-1.ufo
 -------------------------
-source: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/sources/Generic-Serif_12-14-1.ufo
+source: /Users/MasterYee/Google Drive/Cooper Senior Part 1/TypeDesign/Serif 1/sources/Generic-Serif_12-15-1.ufo
 
 Build OTF
 '''''''''
@@ -20,7 +20,7 @@ Build OTF
         makeotf [Note] Writing options file current.fpr
         makeotf [Note] Running makeotfexe with commands:
            cd ""
-           makeotfexe "-f" "font.otf.tmp" "-o" "tmpkofGad.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+           makeotfexe "-f" "font.otf.tmp" "-o" "tmpo_w3GP.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
         makeotfexe [WARNING] --- Source font: font.otf.tmp
         makeotfexe [WARNING] unhinted <.notdef>
         makeotfexe [WARNING] unhinted <A>
@@ -94,17 +94,17 @@ Build OTF
         makeotfexe [WARNING] unhinted <f_f>
         makeotfexe [WARNING] unhinted <f_l>
         makeotfexe [WARNING] <GenericSerif-Regular> Major version number not in range 1 .. 255 [features 31]
-        makeotfexe [NOTE] Wrote new font file 'tmpkofGad.otf'.
+        makeotfexe [NOTE] Wrote new font file 'tmpo_w3GP.otf'.
         
         
-        Built release mode font 'tmpkofGad.otf' Revision 0.000
+        Built release mode font 'tmpo_w3GP.otf' Revision 0.000
         
         --------------------
-        Hinting font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmpkofGad.otf. Start time: Fri Dec 15 01:19:36 2017.
+        Hinting font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmpo_w3GP.otf. Start time: Fri Dec 15 19:20:37 2017.
         .........................................
         ..............................
-        Saving font file with new hints...Fri Dec 15 01:19:41 2017
-        Done with font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmpkofGad.otf. End time: Fri Dec 15 01:19:41 2017.
+        Saving font file with new hints...Fri Dec 15 19:20:39 2017
+        Done with font /var/folders/ps/55fwlsw567l0pdgj3ttpvlrc0000gn/T/tmpo_w3GP.otf. End time: Fri Dec 15 19:20:39 2017.
         
 
 Build TTF
@@ -122,12 +122,12 @@ Build TTF
         makeotf [Note] Writing options file current.fpr
         makeotf [Note] Running makeotfexe with commands:
            cd ""
-           makeotfexe "-f" "dummyCompile.otf.tmp" "-o" "tmpPJW76J.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+           makeotfexe "-f" "dummyCompile.otf.tmp" "-o" "tmprD8pC1.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
         makeotfexe [WARNING] <GenericSerif-Regular> Major version number not in range 1 .. 255 [features 31]
-        makeotfexe [NOTE] Wrote new font file 'tmpPJW76J.ttf'.
+        makeotfexe [NOTE] Wrote new font file 'tmprD8pC1.ttf'.
         
         
-        Built release mode font 'tmpPJW76J.ttf' Revision 0.000
+        Built release mode font 'tmprD8pC1.ttf' Revision 0.000
         
         --------------------
 
